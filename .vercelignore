@@ -1,13 +1,3 @@
-# Only the website is published; these stay in the repository but not on the site.
 node_modules
-site-upload
 tools
-
-# Ignore development dependencies
-node_modules
-
-# Ignore development tools
-tools
-
-# Ignore uncompressed 3D models
 models/*.fbx
