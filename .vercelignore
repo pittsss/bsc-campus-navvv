@@ -2,13 +2,12 @@
 node_modules
 site-upload
 tools
-server.js
-package.json
-pnpm-lock.yaml
-README.md
-# the browser loads the compressed models (models/*.fbx.gz)
+
+# Ignore development dependencies
+node_modules
+
+# Ignore development tools
+tools
+
+# Ignore uncompressed 3D models
 models/*.fbx
-# older copies of the welcome page
-.html
-.css
-.js
